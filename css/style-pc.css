@@ -1,0 +1,69 @@
+@media (min-width: 1785px) {
+    header{
+        background-color: aqua;
+        padding: 40px;
+        padding-right: 100px;
+    }
+    header > button{
+        width: 10%;
+        font-size: 1.1em;
+    }
+    header > img{
+        width: 10%;
+    }
+    .btn-started{
+        width: 20%;
+        padding: 20px 0px;
+        font-size: 1.3em;
+    }
+    #bloco1 > p{
+        margin: auto 450px;
+        font-size: 1.5em;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #sec-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .caixa{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        padding: 20px 279px;
+        margin: auto;
+    }
+    .caixa > img{
+        width: 50%;
+    }
+    .caixa > div > h2{
+        font-size: 2em;
+    }
+    .caixa > div > p{
+        margin: 0px;
+        font-size: 1.2em;
+    }
+    #caixa1{
+        flex-direction: row;
+    }
+    #caixa2{
+        flex-direction: row;
+    }
+    /* BACKGROUND */
+    #caixa1{
+        background-image: url(../images/bg-section-top-desktop-1.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+        
+    }
+    #caixa2{
+        background-image: url(../images/bg-section-bottom-desktop-1.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}

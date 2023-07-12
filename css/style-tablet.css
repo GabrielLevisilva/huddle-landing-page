@@ -1,0 +1,23 @@
+@media (min-width: 376px) {
+    header > button{
+        width: 20%;
+    }
+    h1{
+        font-size: 3em;
+    }
+    #bloco1 > p{
+        margin: auto 150px;
+    }
+    .btn-started{
+        width: 35%;
+    }
+    section{
+        display: flex;
+    }
+    #bloco1 > img{
+        width: 70%;
+    }
+    .caixa > div > p{
+        margin: auto 150px;
+    }
+}
